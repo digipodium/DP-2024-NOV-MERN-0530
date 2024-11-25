@@ -1,0 +1,16 @@
+.submit-btn{
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.submit-btn:hover{
+    background-color: #50108b;
+    transform: scale(0.95);
+}
+
+.submit-btn:active{
+    background-color: red;
+}
