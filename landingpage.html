@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        * {
+            font-family: Roboto;
+        }
+
+        .content {
+            /* border: 2px solid red; */
+            width: 80%;
+            margin: 0 auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .hero-title {
+            font-size: 40px;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+        }
+
+        .hero-btn {
+            padding: 15px 25px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            margin-top: 40px;
+        }
+
+        .hero-section {
+            background-image: linear-gradient(0deg, #000000b7, #000000b8), url('https://i.pinimg.com/originals/c0/3c/67/c03c6766c692c297bcd23286684b5764.jpg');
+            color: white;
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .card {
+            /* border: 1px solid red; */
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px 0 #00000072;
+            transition-duration: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-20px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        footer {
+            padding: 40px 0;
+            background-color: #383838;
+            color: white;
+        }
+
+        .website-links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+        }
+
+        .website-links a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <article>
+
+            <section class="hero-section">
+                <div class="content">
+                    <h1 class="hero-title">Welcome to our Website</h1>
+                    <p class="hero-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        nesciunt dicta iure ab? Autem beatae sint eligendi? Nam facere doloribus, libero dolorem non
+                        corrupti natus, iste ducimus ad sed suscipit?</p>
+
+                    <button class="hero-btn">Explore</button>
+
+                </div>
+
+            </section>
+
+            <section class="feature-section">
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1307598573/vector/startup-new-business-project-development-process-innovation-product-creative-idea-start-up.jpg?s=612x612&w=0&k=20&c=W0Ny8GQkhnsudZHVIN4UXfhu-wnoBsrPIcWhugS19fs="
+                            alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Feature Title 1</h3>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, eligendi deleniti
+                                numquam rerum voluptates similique! Laboriosam inventore sed deleniti? Dicta, laboriosam
+                                nemo. Nesciunt optio, accusamus molestias explicabo numquam magni distinctio.
+                            </p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1307598573/vector/startup-new-business-project-development-process-innovation-product-creative-idea-start-up.jpg?s=612x612&w=0&k=20&c=W0Ny8GQkhnsudZHVIN4UXfhu-wnoBsrPIcWhugS19fs="
+                            alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Feature Title 1</h3>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, eligendi deleniti
+                                numquam rerum voluptates similique! Laboriosam inventore sed deleniti? Dicta, laboriosam
+                                nemo. Nesciunt optio, accusamus molestias explicabo numquam magni distinctio.
+                            </p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1307598573/vector/startup-new-business-project-development-process-innovation-product-creative-idea-start-up.jpg?s=612x612&w=0&k=20&c=W0Ny8GQkhnsudZHVIN4UXfhu-wnoBsrPIcWhugS19fs="
+                            alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Feature Title 1</h3>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, eligendi deleniti
+                                numquam rerum voluptates similique! Laboriosam inventore sed deleniti? Dicta, laboriosam
+                                nemo. Nesciunt optio, accusamus molestias explicabo numquam magni distinctio.
+                            </p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+            <div>
+                <h3>Company Name</h3>
+                <p>All Rights Reserved &copy; 2024</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            </div>
+
+            <div class="website-links">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Career with Us</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
